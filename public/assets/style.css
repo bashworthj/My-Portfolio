@@ -1,0 +1,207 @@
+header {
+  height: 170px;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(40, 40, 70, .8);
+  color: #ffffff;
+  padding-top: 20px;
+  margin-bottom: 8%;
+
+
+
+}
+
+
+/* Gives body a background image*/
+body {
+  background-image: url(https://cdn.hswstatic.com/gif/lightning-5.jpg);
+}
+.about{
+  display: block;
+}
+
+.portfolio{
+  display: none;
+}
+.resume{
+  display: none;
+}
+.contact{
+  display: none;
+}
+
+/* Style and formats to my internal page links*/
+nav.plinks {
+ 
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  background-color: rgb(252, 232, 248);
+  padding-bottom: 1.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  word-spacing: 25px;
+  padding-top: 1.5%;
+  margin-right: 1%;
+  margin-top: -4.5%;
+
+
+}
+
+/* Applies new styles and formats to my internal page links when hovered over with cursor*/
+
+nav.plinks a:hover {
+  border: 3px solid black;
+  padding: 35px;
+  font-size: 30px;
+  background-color: black;
+  color: yellow;
+  transition: 250ms ease;
+}
+
+/* Created this like an image with a % size because i want it to be prominent*/
+h1 {
+
+  color: white;
+  font-size: 360%;
+  padding-left: 1.5%;
+  margin-top: 4%;
+
+}
+
+/* Adds more styling*/
+h2 {
+  text-decoration: underline;
+  font-size: 50px;
+
+}
+
+/* Style and Formats the different sections of my page*/
+.format {
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(52, 39, 78);
+  color: #3c73ff;
+  text-align: center;
+  border: 4px solid rgb(182, 232, 251);
+}
+
+/* Adds more styling*/
+#aboutme {
+  margin: 2% auto;
+
+}
+
+/* Adds more styling*/
+
+
+/* Adds more styling*/
+span {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: red;
+  ;
+}
+
+/* Styles all text found in all p tags*/
+p {
+  width: 80%;
+  font-size: 27px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 4% auto;
+  color: white;
+  letter-spacing: .5px;
+  word-spacing: .2px;
+  line-height: 40px;
+  font-weight: 350;
+
+
+}
+
+/* Styles my last section in the page where you can find different ways to contact me*/
+.exlinks {
+  height: 520px;
+  width: 80%;
+  margin: -20% auto;
+  padding-top: 35%;
+  padding-bottom: 10%;
+  background-color: rgb(28, 20, 43);
+  font-size: 53px;
+  color: rgb(137, 229, 255);
+  text-align: center;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+
+
+
+
+
+
+
+
+#project1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3%;
+  margin-left: .1%;
+
+}
+
+#project1 img {
+  max-height: 80%;
+  max-width: 80%;
+  margin-left: -20%;
+}
+
+#project1 img:hover {
+  padding: 1%;
+  background-color: black;
+  border: 3px solid yellow;
+  transition: 180ms ease;
+
+}
+
+
+
+img {
+  height: 175px;
+  width: 20%;
+  margin: 2%;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.button-3 {
+  border: 2px solid #3c73ff;
+  background-color: #3c73ff;
+  border-radius: 20px;
+  color: #fff;
+  transition: .3s;
+}
+.button-3:hover {
+  box-shadow: 8px 8px #e2b9fa;
+  transition: .1s;
+}
